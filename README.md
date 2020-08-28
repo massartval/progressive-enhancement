@@ -5,3 +5,4 @@ https://wallpapermemory.com/90361#
 
 Opacity issue 
 https://stackoverflow.com/questions/48062925/opacity-on-body-not-affecting-background-color-on-body
+https://stackoverflow.com/questions/5681813/transparent-background-image-with-a-gradient
