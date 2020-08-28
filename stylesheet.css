@@ -1,0 +1,19 @@
+body {
+    font-family: 'Adobe Garamond Pro';
+    font-size: 18px;
+    color: rgb(60, 10, 60);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(183, 31, 183);
+}
+
+a:hover {
+    color: rgb(233, 124, 233);
+}
+
+a:visited {
+    color: rgb(122, 21, 122);
+}
