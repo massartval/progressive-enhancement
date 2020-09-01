@@ -143,3 +143,20 @@ li:nth-child(2) {
 li:nth-child(3) {
     background-image: url(chat.png);
 }
+/* Positionnement */
+figure {
+    float: left;
+    max-width: 50%;
+}
+figure:last-of-type { /* Evite le float du tableau */
+    float: none;
+}
+
+figure img { /* Empêche l'image de déborder du conteneur */
+    max-width: 100%;
+}
+
+blockquote { /* Evite que les images ne recouvrent les citations mais problème de marge verticale */
+    clear: both;
+}
+
