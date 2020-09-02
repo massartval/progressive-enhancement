@@ -8,7 +8,8 @@ body {
     background-repeat:no-repeat;
     background-size: cover;
     color: rgb(60, 10, 60);
-    font-family: 'Adobe Garamond Pro';
+/*  font-family: 'Adobe Garamond Pro'; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     max-width: 90%;
@@ -16,7 +17,9 @@ body {
     position: relative; /* Permet de faire fonctionner la surcouche opaque (en principe...)*/
     text-align: justify; /*Ajout personnel*/
 }
-
+h1, h2 {
+    font-family: 'Adobe Garamond Pro';
+}
 /* COMMENT ON FAIT pour ajouter une surcouche semi-transparente au-dessus de l'image de fond? Je voudrais utiliser le linear-gradient ci-dessous, ou au moins une couleur unie, afin d'avoir un fond plus lisse */
 
 #background-opacity {
